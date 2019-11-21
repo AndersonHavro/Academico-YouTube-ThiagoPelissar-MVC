@@ -13,7 +13,6 @@ namespace MaromFit.Controllers
         {
             Usuario usuario = new Usuario();
             usuario.Name = "Anderson Havro";
-            usuario.ID = 123456;
             return View(usuario);
         }
 
